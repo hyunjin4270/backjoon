@@ -7,6 +7,7 @@ public class AirplaneTotalScore {
     private static Vector planeCount = new Vector();
 
     
+    @SuppressWarnings("unchecked")
     public static void comparePlaneCount(String airplane) {
         if (planeCount.size() == 0) {
             planeCount.add(new Airplane(airplane));
@@ -21,6 +22,7 @@ public class AirplaneTotalScore {
                 planeCount.remove(i);
                 airplane2.pluskillScore();
                 planeCount.add(airplane2);
+                
             } else {
                 count++;
             }
@@ -34,7 +36,7 @@ public class AirplaneTotalScore {
     public static void getTotalScore() {
         for (int i = 0; i < planeCount.size(); i++) {
             Airplane printAirplane = (Airplane) planeCount.get(i);
-            System.out.println();
+            System.out.println(printAirplane.getAIRPLANE_NAME() + ": " + printAirplane.getKillScore());
 
         }
     }
