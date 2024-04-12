@@ -39,11 +39,13 @@ public class AirplaneTotalScore {
     }
 
     public static void getTotalScore() {
+        int totalScore = 0;
         for (int i = 0; i < planeCount.size(); i++) {
             Airplane printAirplane = (Airplane) planeCount.get(i);
             System.out.println(printAirplane.getAIRPLANE_NAME() + ": " + printAirplane.getKillScore());
-
+            totalScore += printAirplane.getKillScore();
         }
+        System.out.println("Grand Total: " + totalScore);
         System.exit(0);
     }
 
