@@ -9,6 +9,10 @@ public class AirplaneTotalScore {
     
     @SuppressWarnings("unchecked")
     public static void comparePlaneCount(String airplane) {
+        if (airplane.equals("0")) {
+            getTotalScore();
+        }
+
         if (planeCount.size() == 0) {
             planeCount.add(new Airplane(airplane));
             return;
@@ -18,10 +22,10 @@ public class AirplaneTotalScore {
             Airplane compareAirplane = (Airplane) planeCount.get(i);
 
             if (compareAirplane.AIRPLANE_NAME.equals(airplane)) {
-                Airplane airplane2 = (Airplane) planeCount.get(i);
                 planeCount.remove(i);
-                airplane2.pluskillScore();
-                planeCount.add(airplane2);
+                compareAirplane.pluskillScore();
+                planeCount.add(compareAirplane);
+                return;
                 
             } else {
                 count++;
@@ -29,6 +33,7 @@ public class AirplaneTotalScore {
 
             if (count == planeCount.size()) {
                 planeCount.add(new Airplane(airplane));
+                return;
             }
         }
     }
@@ -39,16 +44,16 @@ public class AirplaneTotalScore {
             System.out.println(printAirplane.getAIRPLANE_NAME() + ": " + printAirplane.getKillScore());
 
         }
+        System.exit(0);
     }
 
 
     private static class Airplane {
         private final String AIRPLANE_NAME;
-        private int killScore = 0;
+        private int killScore = 1;
 
         Airplane(String AIRPLANE_NAME) {
             this.AIRPLANE_NAME = AIRPLANE_NAME;
-            pluskillScore();
         }
         
         private void pluskillScore() {
