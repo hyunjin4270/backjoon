@@ -4,6 +4,7 @@ import java.util.Vector;
 
 public class AirplaneTotalScore {
     private AirplaneTotalScore() {}
+    @SuppressWarnings("rawtypes")
     private static Vector planeCount = new Vector();
 
     
