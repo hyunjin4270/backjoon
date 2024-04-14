@@ -3,10 +3,14 @@ package try1;
 public class InputNumber {
     private InputNumber() {}
     static void printBinary(String twoNumber) {
+        if (twoNumber.equals("0 0")) {
+            return;
+        }
         int[] numbers = convertInt(twoNumber);
         convertBinary(numbers);
         convertMinusBinary(numbers);
         minusTwoNumber(numbers);
+        System.out.println();
     }
 
     private static int[] convertInt(String twoNumber) {
