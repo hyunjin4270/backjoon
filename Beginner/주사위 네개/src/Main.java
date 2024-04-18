@@ -8,7 +8,6 @@ public class Main {
         int person = Integer.parseInt(br.readLine()); // 인원 수
         int result = 0; // 최댓값
 
-        if person(person >= 1 || )
         for (int i = 0; i < person; i++) {
             result = Math.max(result, rollDice(br.readLine()));
         }
@@ -25,16 +24,18 @@ public class Main {
                 dice[Integer.parseInt(strNumbers[i]) - 1].PlusCount();
             }
         }
-        
+
         return decidePrice(dice);
     }
 
     static int decidePrice(Dice[] dice) {
         int nullCount = 0;
         int maxNumber = 0;
+        int maxCount = 0;
         for (int i = 0; i < dice.length; i++) {
             if (dice[i] != null) {
                 maxNumber = Math.max(dice[i].INT_NUMBER, maxNumber);
+                maxCount = Math.max(dice[i].count, maxCount);
             } else {
                 nullCount++;
             }
@@ -42,20 +43,20 @@ public class Main {
 
         if (nullCount == 5) {
             for (int i = 0; i < dice.length; i++) {
-                if (dice[i] != null) {
+                if (dice[i] != null && maxCount == dice[i].count) {
                     return 50000 + dice[i].INT_NUMBER * 5000;
                 }
             }
         } else if (nullCount == 4) {
-            int maxCount = 0;
+            int maxCount2 = 0;
             for (int i = 0; i < dice.length; i++) {
-               if (dice[i] != null) {
-                 maxCount = Math.max(maxCount, dice[i].count);
-               }
+                if (dice[i] != null) {
+                    maxCount2 = Math.max(maxCount2, dice[i].count);
+                }
             }
-            if (maxCount == 3) {
+            if (maxCount2 == 3) {
                 for (int i = 0; i < dice.length; i++) {
-                    if (dice[i] != null) {
+                    if (dice[i] != null && maxCount == dice[i].count) {
                         return 10000 + dice[i].INT_NUMBER * 1000;
                     }
                 }
@@ -70,7 +71,7 @@ public class Main {
             }
         } else if (nullCount == 3) {
             for (int i = 0; i < dice.length; i++) {
-                if (dice[i] != null) {
+                if (dice[i] != null && maxCount == dice[i].count) {
                     return 1000 + dice[i].INT_NUMBER * 100;
                 }
             }
