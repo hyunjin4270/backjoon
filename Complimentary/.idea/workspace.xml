@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="832d4369-d5e5-41c3-8099-81891f7126ac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10171/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10171/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10171/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10171/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10171/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10171/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10172/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10172/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10172/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10172/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10172/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10172/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10430/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10430/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10430/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10430/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10430/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10430/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10926/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10926/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10926/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10926/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10926/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/10926/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/11382/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/11382/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/11382/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/11382/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/11382/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/11382/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/18108/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/18108/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/18108/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/18108/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/18108/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/18108/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/2588/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/2588/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/2588/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/2588/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/2588/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/2588/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A - B/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A - B/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A - B/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A - B/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A - B/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A - B/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A multiple B/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A multiple B/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A multiple B/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A multiple B/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A multiple B/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A multiple B/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A+B/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A+B/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A+B/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A+B/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A+B/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/A+B/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/Four basic operations/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/Four basic operations/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/Four basic operations/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/Four basic operations/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/Four basic operations/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/Four basic operations/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/Hello World/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/Hello World/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/Hello World/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/Hello World/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/Hello World/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/1. IO and four arithmetic operations/Hello World/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/1330/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/1330/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/1330/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/1330/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/1330/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/1330/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/14681/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/14681/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/14681/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/14681/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/14681/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/14681/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2480/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2480/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2480/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2480/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2480/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2480/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2525/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2525/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2525/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2525/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2525/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2525/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2753/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2753/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2753/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2753/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2753/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2753/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2884/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2884/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2884/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2884/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2884/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/2884/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/9498/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/9498/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/9498/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/9498/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/9498/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/2. conditional statement/9498/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/10950/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/10950/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/10950/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/10950/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/10950/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/10950/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/11021/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/11021/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/11021/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/11021/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/11021/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/11021/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/11022/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/11022/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/11022/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/11022/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/11022/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/11022/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/15552/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/15552/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/15552/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/15552/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/15552/bin/example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/15552/example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/15552/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/15552/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/15552/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/15552/src/example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25304/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25304/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25304/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25304/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25304/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25304/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25314/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25314/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25314/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25314/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25314/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25314/25314.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25314/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25314/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25314/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25314/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/25314/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/8393/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/8393/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/8393/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/8393/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/8393/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Try solving it step by step/3. loop/8393/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2fijAH2kTzygvhpJC1fxezG6i55" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/github/backjoon/Complimentary",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="832d4369-d5e5-41c3-8099-81891f7126ac" name="Changes" comment="" />
+      <created>1714290646478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714290646478</updated>
+      <workItem from="1714290647638" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
