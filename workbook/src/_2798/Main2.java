@@ -1,9 +1,11 @@
 package _2798;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -20,9 +22,8 @@ public class Main {
         for (int i = 0, score; i < (card.length - 2); i++) { //첫번째 카드 지정
             for (int j = (i + 1); j < (card.length - 1); j++) { //두번째 카드 지정
                 for (int k = (j + 1); k < card.length; k++) { //세번째 카드 지정
-                    int i1 = card[i] + card[j] + card[k];
-                    if (i1 <= limit) {
-                        score = i1;
+                    if (card[i] + card[j] + card[k] <= limit) {
+                        score = card[i] + card[j] + card[k];
                         maxScore = Math.max(maxScore, score);
                     }
                 }
