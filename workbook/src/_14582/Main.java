@@ -8,10 +8,8 @@ import java.util.StringTokenizer;
 public class Main  {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String zeminisInput = br.readLine();
-        String startlinkInput = br.readLine();
-        StringTokenizer zeminisScore = new StringTokenizer(zeminisInput);
-        StringTokenizer startlinkScore = new StringTokenizer(startlinkInput);
+        StringTokenizer zeminisScore = new StringTokenizer(br.readLine());
+        StringTokenizer startlinkScore = new StringTokenizer(br.readLine());
         int numberOfMatch = 1;
         int zeminisTotalScore = 0;
         int startlinkTotalScore = 0;
