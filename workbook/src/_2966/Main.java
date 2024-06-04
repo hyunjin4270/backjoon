@@ -13,27 +13,27 @@ public class Main {
         students[2] = new Student("Goran", "CCAABB");
         br.readLine();
         String answer = br.readLine();
-        for (int i = 0; i < students.length; i++) {
-            students[i].checkAnswer(answer);
+        for (Student student : students) {
+            student.checkAnswer(answer);
         }
 
         printResult(students);
     }
     static void printResult(Student[] students) {
         int max = -1;
-        for (int i = 0; i < students.length; i++) {
-            max = Math.max(max, students[i].getScore());
+        for (Student student : students) {
+            max = Math.max(max, student.getScore());
         }
         System.out.println(max);
-        for (int i = 0; i < students.length; i++) {
-            if (students[i].getScore() == max) {
-                System.out.println(students[i].getName());
+        for (Student student : students) {
+            if (student.getScore() == max) {
+                System.out.println(student.getName());
             }
         }
     }
     static class Student {
-        private String name;
-        private String pattern;
+        private final String name;
+        private final String pattern;
         private int score;
         Student(String name, String pattern) {
             this.name = name;
