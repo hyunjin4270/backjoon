@@ -2,22 +2,25 @@ package _2966;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.HashMap;
 
 public class Main {
-    static Student[] students = {
-            new Student("Adrian", "ABC"),
-            new Student("Bruno", "BABC"),
-            new Student("Goran", "CCAABB")
-    };
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         br.readLine();
+        Student[] students = new Student[] {
+                new Student("Adrian", "ABC"),
+                new Student("Bruno", "BABC"),
+                new Student("Goran", "CCAABB")
+        };
         String answer = br.readLine();
         for (Student student : students) {
             student.checkAnswer(answer);
         }
         printResult(students);
     }
+
     static void printResult(Student[] students) {
         int max = -1;
         for (Student student : students) {
