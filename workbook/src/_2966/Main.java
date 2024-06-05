@@ -4,19 +4,18 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class Main {
-    final static int NUMBER_OF_STUDENTS = 3;
-    public static void main(String[] args) throws Exception{
+    static Student[] students = {
+            new Student("Adrian", "ABC"),
+            new Student("Bruno", "BABC"),
+            new Student("Goran", "CCAABB")
+    };
+    public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        Student[] students = new Student[NUMBER_OF_STUDENTS];
-        students[0] = new Student("Adrian", "ABC");
-        students[1] = new Student("Bruno", "BABC");
-        students[2] = new Student("Goran", "CCAABB");
         br.readLine();
         String answer = br.readLine();
         for (Student student : students) {
             student.checkAnswer(answer);
         }
-
         printResult(students);
     }
     static void printResult(Student[] students) {
