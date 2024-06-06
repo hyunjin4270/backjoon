@@ -20,9 +20,9 @@ public class Main {
         @Override
         public void changeShape(Pattern pattern) {
             StringBuilder changedPattern = new StringBuilder();
-            for (int i = 0; i < (pattern.getHeight() * pattern.changeHeightValue); i++) {
-                for (int j = 0; j < (pattern.getWidth() * pattern.changeWidthValue); j++) {
-                    changedPattern.append(pattern.pattern[i / pattern.changeHeightValue].charAt(j / pattern.changeWidthValue));
+            for (int i = 0; i < (pattern.getHeight() * pattern.getChangeHeightValue()); i++) {
+                for (int j = 0; j < (pattern.getWidth() * pattern.getChangeWidthValue()); j++) {
+                    changedPattern.append(pattern.pattern[i / pattern.getChangeHeightValue()].charAt(j / pattern.getChangeWidthValue()));
                 }
                 changedPattern.append("\n");
             }
@@ -38,10 +38,10 @@ public class Main {
         private final String[] pattern;
         Pattern(String information) throws IOException {
             StringTokenizer st = new StringTokenizer(information);
-            width = Integer.parseInt(st.nextToken());
             height = Integer.parseInt(st.nextToken());
-            changeWidthValue = Integer.parseInt(st.nextToken());
+            width = Integer.parseInt(st.nextToken());
             changeHeightValue = Integer.parseInt(st.nextToken());
+            changeWidthValue = Integer.parseInt(st.nextToken());
             pattern = new String[height];
             setPattern();
         }
@@ -66,6 +66,7 @@ public class Main {
             for (int i = 0; i < height; i++) {
                 pattern[i] = br.readLine();
             }
+
         }
         void changeShape(ShapeConversion shapeConversion) {
             shapeConversion.changeShape(this);
@@ -73,7 +74,6 @@ public class Main {
     }
     public static void main(String[] args) throws Exception {
         Pattern pattern = new Pattern(br.readLine());
-        pattern.setPattern();
         pattern.changeShape(new Increase());
     }
 }
