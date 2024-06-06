@@ -4,9 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
 public class Main {
-    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static void printPattern(StringBuilder pattern) {
         System.out.println(pattern);
     }
@@ -22,7 +20,7 @@ public class Main {
             StringBuilder changedPattern = new StringBuilder();
             for (int i = 0; i < (pattern.getHeight() * pattern.getChangeHeightValue()); i++) {
                 for (int j = 0; j < (pattern.getWidth() * pattern.getChangeWidthValue()); j++) {
-                    changedPattern.append(pattern.pattern[i / pattern.getChangeHeightValue()].charAt(j / pattern.getChangeWidthValue()));
+                    changedPattern.append(pattern.patternInformation[i / pattern.getChangeHeightValue()].charAt(j / pattern.getChangeWidthValue()));
                 }
                 changedPattern.append("\n");
             }
@@ -35,15 +33,15 @@ public class Main {
         private final int changeWidthValue;
         private final int changeHeightValue;
 
-        private final String[] pattern;
-        Pattern(String information) throws IOException {
-            StringTokenizer st = new StringTokenizer(information);
+        private final String[] patternInformation;
+        Pattern(BufferedReader bufferedReader) throws IOException {
+            StringTokenizer st = new StringTokenizer(bufferedReader.readLine());
             height = Integer.parseInt(st.nextToken());
             width = Integer.parseInt(st.nextToken());
             changeHeightValue = Integer.parseInt(st.nextToken());
             changeWidthValue = Integer.parseInt(st.nextToken());
-            pattern = new String[height];
-            setPattern();
+            patternInformation = new String[height];
+            setPatternInformation(bufferedReader);
         }
 
         public int getWidth() {
@@ -62,18 +60,18 @@ public class Main {
             return changeHeightValue;
         }
 
-        void setPattern() throws IOException {
+        void setPatternInformation(BufferedReader br) throws IOException {
             for (int i = 0; i < height; i++) {
-                pattern[i] = br.readLine();
+                patternInformation[i] = br.readLine();
             }
-
         }
         void changeShape(ShapeConversion shapeConversion) {
             shapeConversion.changeShape(this);
         }
     }
     public static void main(String[] args) throws Exception {
-        Pattern pattern = new Pattern(br.readLine());
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        Pattern pattern = new Pattern(br);
         pattern.changeShape(new Increase());
     }
 }
